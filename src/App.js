@@ -1,10 +1,10 @@
 import React from "react";
-import State from "./components/ReactState";
+import ConditionalRender from "./conditionalRender";
 
 export default function App() {
   return (
     <div>
-      <State />
+      <ConditionalRender />
     </div>
   );
 }

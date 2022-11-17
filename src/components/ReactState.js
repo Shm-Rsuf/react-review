@@ -30,7 +30,11 @@ export default class State extends Component {
         <button onClick={this.incrementHandler} className="btn">
           +
         </button>
-        <button onClick={this.decrementHandler} className="btn">
+        <button
+          onClick={this.decrementHandler}
+          className="btn"
+          disabled={count === 0 ? true : false}
+        >
           -
         </button>
       </div>
