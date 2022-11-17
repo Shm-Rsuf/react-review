@@ -1,10 +1,10 @@
 import React from "react";
-import Todo from "./components/Todo";
+import Form from "./components/Form";
 
 export default function App() {
   return (
     <div>
-      <Todo />
+      <Form />
     </div>
   );
 }
