@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(26, 26, 117);
+  color: whitesmoke;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  font-size: 5rem;
+  margin: 2rem;
+  border-color: rgb(255, 0, 0);
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}

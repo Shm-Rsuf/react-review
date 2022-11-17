@@ -1,10 +1,10 @@
 import React from "react";
-import Form from "./components/Form";
+import State from "./components/ReactState";
 
 export default function App() {
   return (
     <div>
-      <Form />
+      <State />
     </div>
   );
 }
